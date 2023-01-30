@@ -23,7 +23,7 @@ app.UseCors(builder =>
 
 app.UseAuthentication();
 app.UseAuthorization();
-// Configure the HTTP request pipeline.
+
 app.MapControllers();
 
 using var scope = app.Services.CreateScope();
